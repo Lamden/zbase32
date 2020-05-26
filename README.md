@@ -31,6 +31,6 @@ public_key = '88b0fdb5b079675ce0c40c3825d0aae5b3e8c353a408d5261611f846c526a3c9'
 # way cool
 public_key = bytes.fromhex(public_key)
 public_key = zbase32.bytes_to_zbase32(public_key)
-'pub_{}'.format(public_key[:-4]
+'pub_{}'.format(public_key[:-4])
 
 >>> pub_tnax5ppoxfui3agrbohnmwfkhs36to4uworpkjosn8hrptjgwxro
